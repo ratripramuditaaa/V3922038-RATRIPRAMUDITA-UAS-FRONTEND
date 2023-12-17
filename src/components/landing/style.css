@@ -1,0 +1,29 @@
+.body {
+  display: flex;
+  padding: 20px;
+}
+.left-content {
+  flex: 1;
+  margin: 50px auto;
+}
+
+.center-content {
+  flex: 1; /* Memiliki lebar fleksibel */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Menyusun elemen ke tengah secara horizontal */
+  justify-content: center; /* Menyusun elemen ke tengah secara vertikal */
+}
+
+.body-image {
+  width: 100%; /* Gambar memenuhi lebar */
+  height: auto;
+}
+
+.buy-ticket-button {
+  margin-bottom: 10px; 
+}
+
+.ticket-price {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,65 @@
+/* style1.css */
+
+/* Container styles */
+.reg-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 70px;
+}
+
+/* Title */
+.reg-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Input styles */
+.input-container {
+  margin-bottom: 15px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 40px);
+  padding: 3px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Button style */
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #779ee7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #779ee7;
+}
+
+/* "Masuk" link */
+p {
+  margin-top: 20px;
+}
+
+/* Social buttons */
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-buttons img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  cursor: pointer;
+}

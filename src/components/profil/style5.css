@@ -1,0 +1,79 @@
+/* profil.css */
+
+/* Container style */
+/* profil.css */
+
+/* Container style */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 55vh;
+  max-width: 400px;
+  background: linear-gradient(to right, #d1e5f1, #bed6f5);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 50px auto 0; /* Center the container horizontally and add margin to the top */
+}
+
+
+
+/* Welcome message style */
+.welcome-message {
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Info container style */
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Name style with shadow */
+.name {
+  font-size: 30px;
+  margin-bottom: 10px;
+  
+}
+
+/* Email style with shadow */
+.email {
+  font-size: 20px;
+  margin-bottom: 10px;
+  
+}
+
+/* Button container style */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Add button style */
+.add-button {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #779ee7;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Logout button style */
+.logout-button {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #779EE9;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

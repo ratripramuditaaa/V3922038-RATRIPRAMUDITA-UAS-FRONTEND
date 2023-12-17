@@ -1,0 +1,61 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #E1EAF2;
+}
+
+.left-content {
+  max-width: 100%; /* Pastikan div tidak melebihi lebar parentnya */
+  overflow: hidden; /* Agar gambar tidak keluar dari batas div */
+}
+
+.image {
+  width: 100%; /* Pastikan gambar mengisi lebar div */
+  height: auto; /* Biarkan tinggi gambar menyesuaikan proporsi lebar */
+  display: block; /* Hilangkan spasi tambahan yang mungkin ada di sekitar gambar */
+}
+
+.form-reservasi {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-reservasi label {
+  margin-bottom: 10px;
+}
+
+.form-reservasi input,
+.form-reservasi select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.form-reservasi input[type='submit'] {
+  background-color: #779ee9;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.form-reservasi input[type='submit']:hover {
+  background-color: #779ee9;
+}
+
+/* Footer styles */
+
+.footer {
+  background-color: #779ee9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.footer p {
+  font-size: 18px;
+  color: #FFFFFF;
+}

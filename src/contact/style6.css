@@ -1,0 +1,55 @@
+.rightSide {
+  max-width: 800px; /* Atur lebar maksimum elemen */
+  margin: 0 auto; /* Posisikan elemen ke tengah */
+  padding: 0 20px; /* Beri jarak di sekitar elemen */
+}
+
+/* Style untuk form kontak */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style untuk label */
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Style untuk input dan textarea */
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style untuk tombol kirim pesan */
+button {
+  background-color: #779ee7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+  .rightSide {
+    max-width: 90%; /* Atur lebar maksimum elemen untuk layar kecil */
+  }
+
+  /* Atur padding dan margin pada form */
+  #contact-form {
+    padding: 0;
+  }
+
+  /* Atur ukuran font pada label */
+  label {
+    font-size: 0.9em;
+  }
+}
